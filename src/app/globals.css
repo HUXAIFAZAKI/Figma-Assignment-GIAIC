@@ -9,15 +9,6 @@ body {
   scroll-behavior: smooth;
 }
 
-.side-icons {
-  cursor: pointer;
-}
-
-input:focus {
-  outline: none;
-  border: none;
-}
-
 @media screen and (max-width: 450px) {
   .nav {
     display: flex;
