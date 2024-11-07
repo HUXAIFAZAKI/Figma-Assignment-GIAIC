@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+.heading {
+  margin-bottom: 5px;
+  color: white;
+  font-family: "Libre Bodoni", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.text {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
+}

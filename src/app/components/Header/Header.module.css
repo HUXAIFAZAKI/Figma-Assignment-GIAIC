@@ -1,0 +1,11 @@
+@import url(https://fonts.googleapis.com/css2?family=Rye&display=swap);
+
+.logo {
+  font-family: "Rye", serif;
+  color: white;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.25rem;
+  padding-left: 2.5%;
+  user-select: none;
+}

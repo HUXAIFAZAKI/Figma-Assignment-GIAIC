@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 75px 75px;
+}
+
+.heading {
+  font-family: "Libre Bodoni", serif;
+  font-weight: 700;
+  font-size: 2.15rem;
+  width: 40%;
+}
+
+.paragraph {
+  margin-top: 25px;
+  font-family: Libre Bodoni;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  text-align: left;
+  color: rgba(120, 112, 84, 1);
+  width: 65%;
+}
+
+.exploreBtn {
+  font-family: Libre Bodoni;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 35px;
+  background: rgba(162, 152, 117, 1);
+  color: white;
+  border-radius: 5px;
+  padding: 7.5px 25px;
+}
+
+.mainIMG {
+  width: 500px;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 425px) {
+  .mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 5px;
+  }
+  .heading {
+    font-size: 1.75rem;
+    width: 100%;
+    text-align: center;
+  }
+  .paragraph {
+    width: 100%;
+    text-align: center;
+  }
+  .exploreBtn {
+    align-self: center;
+    margin-bottom: 25px;
+  }
+  .mainIMG {
+    display: none;
+  }
+}
